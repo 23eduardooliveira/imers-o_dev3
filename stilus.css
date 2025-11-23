@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #eb8541; /* Cor primária (azul claro) */
-    --secondary-color: #eb9442; /* Cor secundária (cinza claro) */
-    --tertiary-color: #e2e2e2; /* Cor terciária (cinza médio) */
-    --bg-color: #131313; /* Cor de fundo (cinza escuro) */
+    --primary-color: #30b3ff; /* Cor primária (amarelo-limão do ícone) */
+    --secondary-color: #fafafa; /* Cor secundária (amarelo-esverdeado pálido para texto) */
+    --tertiary-color: #fffb00; /* Cor terciária (cinza médio) */
+    --bg-color: #050c22; /* Cor de fundo (cinza escuro) */
 }
 
 body {
@@ -22,12 +22,9 @@ header {
     padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
     display: flex; /* Habilita o layout flexbox */
     align-items: center; /* Alinha os itens verticalmente ao centro */
-    justify-content: space-between; /* Coloca um item na esquerda e outro na direita */
-    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
-    top: 0; /* Posição do topo quando sticky */
-    background: var(--bg-color); /* Cor de fundo do cabeçalho */
-    z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
-    border-bottom: 1px solid var(--bg-color); /* Adiciona uma borda inferior */
+    justify-content: space-between; /* Coloca um item na esquerda e outro na direita */    
+    background: var(--bg-color); /* Cor de fundo do cabeçalho */    
+    border-bottom: 1px solid #3c4043; /* Adiciona uma borda inferior para separar do conteúdo */
     gap: 1rem; /* Espaçamento entre os elementos flex */
 }
 
@@ -36,7 +33,9 @@ header h1 {
     margin: 0; /* Remove margens que possam interferir */
     font-size: 1.8rem; /* Tamanho da fonte */
     font-weight: 500; /* Peso da fonte (médio) */
-    white-space: nowrap; /* Impede a quebra de linha do texto */
+    white-space: nowrap; /* Impede a quebra de linha do texto */    
+    display: flex; /* Habilita flexbox para alinhar o ícone e o texto */
+    align-items: center; /* Alinha verticalmente o ícone e o texto */
 }
 
 div input {

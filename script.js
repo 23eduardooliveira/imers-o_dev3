@@ -130,17 +130,24 @@ function setupPagination(games) {
 
 // Função para adicionar o ícone de troféu no cabeçalho e como favicon
 function adicionarIcones() {
-    const iconeTrofeuSVG = `<Gemini_Generated_Image_9521qn9521qn9521" width="24" height="24" viewBox="0 0 24 24" fill="${encodeURIComponent('#eb8541')}" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M9.5 14.5A2.5 2.5 0 0 1 12 12a2.5 2.5 0 0 1 2.5 2.5"/></svg>`;
-    
+    const urlIcone = 'https://raw.githubusercontent.com/23eduardooliveira/imers-o_dev3/refs/heads/main/imagens/Gemini_Generated_Image_9521qn9521qn9521-removebg-preview.png';
+
+    // Adiciona o ícone ao lado do título H1
     const titulo = document.querySelector('header h1');
     if (titulo) {
-        titulo.insertAdjacentHTML('afterbegin', iconeTrofeuSVG.replace(encodeURIComponent('#eb8541'), 'currentColor'));
+        const iconeImg = document.createElement('img');
+        iconeImg.src = urlIcone;
+        iconeImg.alt = 'Ícone de troféu';
+        iconeImg.style.width = '50px'; // Ajuste de tamanho
+        iconeImg.style.height = '75px'; // Ajuste de tamanho
+        iconeImg.style.marginRight = '0.75rem'; // Espaçamento entre ícone e texto
+        titulo.prepend(iconeImg); // Adiciona o ícone no início do H1
     }
 
     // Adiciona ícone na aba do navegador (favicon)
     const faviconLink = document.createElement('link');
     faviconLink.rel = 'icon';
-    faviconLink.href = `data:image/svg+xml,${iconeTrofeuSVG}`;
+    faviconLink.href = urlIcone;
     document.head.appendChild(faviconLink);
 
     // Atualiza o título da página
