@@ -1,305 +1,407 @@
 [
   {
-    "nome": "TypeScript",
-    "descricao": "Um superset de JavaScript que adiciona tipagem estática opcional, compilando para JavaScript puro. Melhora a manutenibilidade de grandes bases de código.",
-    "data_criacao": "2012",
-    "link": "https://www.typescriptlang.org/",
+    "nome": "Baldur's Gate 3",
+    "descricao": "Retorne aos Reinos Esquecidos em um conto de companheirismo, traição e sobrevivência. Com um parasita de Devorador de Mentes em seu cérebro, você deve escolher entre resistir à corrupção ou abraçar um poder sombrio e supremo.",
+    "data_criacao": "GOTY 2023",
+    "desenvolvedora": "Larian Studios",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
+    "indicacoes": 9,
+    "link": "https://baldursgate3.game/",
     "tags": [
-      "linguagem de programação",
-      "frontend",
-      "backend",
-      "superset"
+      "RPG",
+      "CRPG",
+      "Dungeons & Dragons",
+      "PC",
+      "PS5"
     ]
   },
   {
-    "nome": "React",
-    "descricao": "Biblioteca JavaScript declarativa e eficiente para construir interfaces de usuário, mantida pelo Facebook (Meta).",
-    "data_criacao": "2013",
-    "link": "https://reactjs.org/",
+    "nome": "Elden Ring",
+    "descricao": "Nas Terras Intermédias, o Anel Prístino foi quebrado. Como um Maculado, guiado pela graça, você deve brandir o poder do Anel e se tornar o Lorde Prístino em uma jornada épica criada por Hidetaka Miyazaki e George R. R. Martin.",
+    "data_criacao": "GOTY 2022",
+    "desenvolvedora": "FromSoftware",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg",
+    "indicacoes": 7,
+    "link": "https://www.bandainamcoent.com/games/elden-ring",
     "tags": [
-      "biblioteca",
-      "frontend",
-      "ui",
-      "web development"
+      "RPG de Ação",
+      "Souls-like",
+      "Mundo Aberto",
+      "Fantasia Sombria"
     ]
   },
   {
-    "nome": "Vue.js",
-    "descricao": "Framework progressivo JavaScript, focado em ser incrementalmente adaptável e fácil de integrar em projetos existentes.",
-    "data_criacao": "2014",
-    "link": "https://vuejs.org/",
+    "nome": "It Takes Two",
+    "descricao": "Embarque na jornada mais maluca da sua vida nesta aventura cooperativa. Jogue como o casal Cody e May, dois humanos transformados em bonecos por um feitiço, que devem superar suas diferenças para escapar de um mundo fantástico.",
+    "data_criacao": "GOTY 2021",
+    "desenvolvedora": "Hazelight Studios",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/header.jpg",
+    "indicacoes": 5,
+    "link": "https://www.ea.com/games/it-takes-two",
     "tags": [
-      "framework",
-      "frontend",
-      "web development",
-      "javascript"
+      "Aventura",
+      "Plataforma",
+      "Cooperativo",
+      "Puzzle"
     ]
   },
   {
-    "nome": "Angular",
-    "descricao": "Framework de desenvolvimento frontend mantido pelo Google, robusto e baseado em TypeScript, ideal para aplicações de larga escala.",
-    "data_criacao": "2016",
-    "link": "https://angular.io/",
+    "nome": "The Last of Us Part II",
+    "descricao": "Cinco anos após sua jornada perigosa, Ellie e Joel vivem em paz em Jackson. Quando um evento violento interrompe essa paz, Ellie embarca em uma busca implacável por vingança, desafiando sua própria noção de certo e errado.",
+    "data_criacao": "GOTY 2020",
+    "desenvolvedora": "Naughty Dog",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXGzkGSHrtT_ILA4ZoM4BlYaYsnCcP0xj4Tg&s",
+    "indicacoes": 11,
+    "link": "https://www.playstation.com/pt-br/games/the-last-of-us-part-ii/",
     "tags": [
-      "framework",
-      "frontend",
-      "typescript",
-      "single page application"
+      "Ação-Aventura",
+      "Survival Horror",
+      "Narrativa",
+      "PS4"
     ]
   },
   {
-    "nome": "Node.js",
-    "descricao": "Ambiente de execução JavaScript open-source, multi-plataforma e assíncrono, usado principalmente para desenvolvimento backend.",
-    "data_criacao": "2009",
-    "link": "https://nodejs.org/",
+    "nome": "Sekiro: Shadows Die Twice",
+    "descricao": "No Japão do século XVI, você é o 'lobo de um braço só', um guerreiro desonrado resgatado da beira da morte. Proteja um jovem lorde e enfrente inimigos mortais em uma jornada brutal de vingança e honra.",
+    "data_criacao": "GOTY 2019",
+    "desenvolvedora": "FromSoftware",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg",
+    "indicacoes": 5,
+    "link": "https://www.sekirothegame.com/",
     "tags": [
-      "runtime",
-      "backend",
-      "javascript",
-      "servidor"
+      "Ação-Aventura",
+      "Souls-like",
+      "Furtividade",
+      "Japão Feudal"
     ]
   },
   {
-    "nome": "Go (Golang)",
-    "descricao": "Linguagem de programação compilada, tipada estaticamente, desenvolvida pelo Google, focada em simplicidade, concorrência e desempenho.",
-    "data_criacao": "2009",
-    "link": "https://go.dev/",
+    "nome": "God of War",
+    "descricao": "Longe da sombra dos deuses, Kratos vive como um homem comum no reino nórdico. Com seu filho Atreus, ele embarca em uma jornada profundamente pessoal para cumprir uma promessa, enfrentando um panteão de deuses e monstros.",
+    "data_criacao": "GOTY 2018",
+    "desenvolvedora": "Santa Monica Studio",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/header.jpg",
+    "indicacoes": 8,
+    "link": "https://www.playstation.com/pt-br/games/god-of-war/",
     "tags": [
-      "linguagem de programação",
-      "backend",
-      "sistemas",
-      "concorrência"
+      "Ação-Aventura",
+      "Hack and Slash",
+      "Mitologia Nórdica",
+      "PS4"
     ]
   },
   {
-    "nome": "Kotlin",
-    "descricao": "Linguagem de programação moderna, estaticamente tipada, que roda na JVM (Java Virtual Machine) e é a linguagem preferida para desenvolvimento Android.",
-    "data_criacao": "2011",
-    "link": "https://kotlinlang.org/",
+    "nome": "The Legend of Zelda: Breath of the Wild",
+    "descricao": "Desperte após 100 anos em um reino de Hyrule em ruínas. Explore um vasto mundo aberto, resolva quebra-cabeças em santuários antigos e reúna forças para derrotar a Calamidade Ganon nesta aventura que redefine a liberdade.",
+    "data_criacao": "GOTY 2017",
+    "desenvolvedora": "Nintendo EPD",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQffffNAjv1CPwytks0dIyS1xTZEWb1hsfmzg&s",
+    "indicacoes": 5,
+    "link": "https://www.zelda.com/breath-of-the-wild/",
     "tags": [
-      "linguagem de programação",
-      "android",
-      "backend",
-      "jvm"
+      "Ação-Aventura",
+      "Mundo Aberto",
+      "RPG",
+      "Nintendo Switch"
     ]
   },
   {
-    "nome": "Swift",
-    "descricao": "Linguagem de programação desenvolvida pela Apple para iOS, macOS, watchOS, tvOS e Linux, focada em segurança e velocidade.",
-    "data_criacao": "2014",
-    "link": "https://www.swift.org/",
+    "nome": "Overwatch",
+    "descricao": "Em um futuro otimista, junte-se a uma força-tarefa lendária de soldados, cientistas e aventureiros. Escolha seu herói em um shooter de equipe vibrante, onde poderes extraordinários e trabalho em equipe são a chave para a vitória.",
+    "data_criacao": "GOTY 2016",
+    "desenvolvedora": "Blizzard Entertainment",
+    "imagem": "https://gaming-cdn.com/images/products/2208/orig/overwatch-pc-jogo-battle-net-cover.jpg?v=1747152388",
+    "indicacoes": 4,
+    "link": "https://overwatch.blizzard.com/",
     "tags": [
-      "linguagem de programação",
-      "mobile",
-      "apple",
-      "sistemas"
+      "Tiro em Equipe",
+      "Hero Shooter",
+      "Multiplayer",
+      "FPS"
     ]
   },
   {
-    "nome": "Rust",
-    "descricao": "Linguagem de programação de sistemas que se concentra em segurança, especialmente concorrência segura, e alto desempenho.",
-    "data_criacao": "2010",
-    "link": "https://www.rust-lang.org/",
+    "nome": "The Witcher 3: Wild Hunt",
+    "descricao": "Como o bruxo Geralt de Rívia, um caçador de monstros profissional, embarque em sua missão mais perigosa: encontrar Ciri, a Criança da Profecia, uma arma viva capaz de alterar o mundo, enquanto é caçada pela temível Caçada Selvagem.",
+    "data_criacao": "GOTY 2015",
+    "desenvolvedora": "CD Projekt Red",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg",
+    "indicacoes": 10,
+    "link": "https://www.thewitcher.com/en/witcher3",
     "tags": [
-      "linguagem de programação",
-      "sistemas",
-      "performance",
-      "segurança de memória"
+      "RPG de Ação",
+      "Mundo Aberto",
+      "Fantasia",
+      "Narrativa"
     ]
   },
   {
-    "nome": "MongoDB",
-    "descricao": "Banco de dados NoSQL orientado a documentos, conhecido por sua flexibilidade e escalabilidade horizontal.",
-    "data_criacao": "2009",
-    "link": "https://www.mongodb.com/",
+    "nome": "Alan Wake 2",
+    "descricao": "Uma série de assassinatos ritualísticos ameaça Bright Falls. Saga Anderson, uma agente do FBI, investiga o caso e descobre páginas de uma história de terror que começa a se tornar realidade, escrita por um autor desaparecido há 13 anos.",
+    "data_criacao": "Indicado GOTY 2023",
+    "desenvolvedora": "Remedy Entertainment",
+    "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202305/2420/c3daf3037feb797d9e71b81618e3b5ff3ff1f9609db5a4a2.png",
+    "indicacoes": 8,
+    "link": "https://www.alanwake.com/",
     "tags": [
-      "banco de dados",
-      "nosql",
-      "documentos",
-      "escalabilidade"
+      "Survival Horror",
+      "Terror Psicológico",
+      "Narrativa"
     ]
   },
   {
-    "nome": "PostgreSQL",
-    "descricao": "Sistema de gerenciamento de banco de dados relacional open-source focado em extensibilidade e conformidade com padrões SQL.",
-    "data_criacao": "1996",
-    "link": "https://www.postgresql.org/",
+    "nome": "Cyberpunk 2077",
+    "descricao": "Em Night City, uma megalópole obcecada por poder, glamour e modificações corporais, você é V, um mercenário em busca de um implante único que concede a imortalidade. Personalize seu personagem e explore um vasto mundo aberto.",
+    "data_criacao": "Melhor RPG 2020",
+    "desenvolvedora": "CD Projekt Red",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg",
+    "indicacoes": 6,
+    "link": "https://www.cyberpunk.net/",
     "tags": [
-      "banco de dados",
-      "relacional",
-      "sql",
-      "open source"
+      "RPG",
+      "Mundo Aberto",
+      "Cyberpunk",
+      "FPS"
     ]
   },
   {
-    "nome": "Redis",
-    "descricao": "Estrutura de dados em memória, utilizada como cache, fila de mensagens ou banco de dados chave-valor de alta performance.",
-    "data_criacao": "2009",
-    "link": "https://redis.io/",
+    "nome": "God of War Ragnarök",
+    "descricao": "Kratos e Atreus devem viajar pelos Nove Reinos em busca de respostas enquanto as forças de Asgard se preparam para a batalha profetizada que causará o fim do mundo. Uma jornada épica sobre família, destino e coragem.",
+    "data_criacao": "Indicado GOTY 2022",
+    "desenvolvedora": "Santa Monica Studio",
+    "imagem": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/capsule_616x353.jpg?t=1750909504",
+    "indicacoes": 10,
+    "link": "https://www.playstation.com/pt-br/games/god-of-war-ragnarok/",
     "tags": [
-      "banco de dados",
-      "cache",
-      "chave-valor",
-      "performance"
+      "Ação-Aventura",
+      "Hack and Slash",
+      "Mitologia Nórdica",
+      "PS5"
     ]
   },
   {
-    "nome": "Docker",
-    "descricao": "Plataforma que permite desenvolver, enviar e executar aplicações dentro de contêineres leves e portáteis.",
-    "data_criacao": "2013",
-    "link": "https://www.docker.com/",
+    "nome": "Hades",
+    "descricao": "Desafie o deus dos mortos enquanto você batalha para fugir do Submundo da mitologia grega. Neste roguelike, cada tentativa de fuga revela mais da história e te torna mais forte, com a ajuda dos deuses do Olimpo.",
+    "data_criacao": "Indicado GOTY 2020",
+    "desenvolvedora": "Supergiant Games",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
+    "indicacoes": 9,
+    "link": "https://www.supergiantgames.com/games/hades/",
     "tags": [
-      "devops",
-      "containerização",
-      "ferramenta",
-      "infraestrutura"
+      "Roguelike",
+      "Ação",
+      "Indie",
+      "Mitologia Grega"
     ]
   },
   {
-    "nome": "Kubernetes",
-    "descricao": "Sistema open-source para automatizar a implantação, escalonamento e gerenciamento de aplicações em contêineres.",
-    "data_criacao": "2014",
-    "link": "https://kubernetes.io/",
+    "nome": "Ghost of Tsushima",
+    "descricao": "No final do século XIII, o império mongol devasta nações em sua campanha para conquistar o Oriente. Como Jin Sakai, um dos últimos samurais sobreviventes, você deve abandonar a tradição e forjar um novo caminho para proteger sua ilha.",
+    "data_criacao": "Indicado GOTY 2020",
+    "desenvolvedora": "Sucker Punch Productions",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/2215430/header.jpg",
+    "indicacoes": 7,
+    "link": "https://www.playstation.com/pt-br/games/ghost-of-tsushima/",
     "tags": [
-      "devops",
-      "orquestração",
-      "nuvem",
-      "containerização"
+      "Ação-Aventura",
+      "Mundo Aberto",
+      "Furtividade",
+      "Japão Feudal"
     ]
   },
   {
-    "nome": "Terraform",
-    "descricao": "Ferramenta de Infraestrutura como Código (IaC) que permite provisionar e gerenciar infraestrutura em nuvem de forma declarativa.",
-    "data_criacao": "2014",
-    "link": "https://www.terraform.io/",
+    "nome": "Red Dead Redemption 2",
+    "descricao": "América, 1899. O fim da era do Velho Oeste começou. Após um assalto dar errado, Arthur Morgan e a gangue Van der Linde são forçados a fugir. Com agentes federais e caçadores de recompensas em seu encalço, a gangue deve roubar e lutar para sobreviver.",
+    "data_criacao": "Indicado GOTY 2018",
+    "desenvolvedora": "Rockstar Games",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg",
+    "indicacoes": 8,
+    "link": "https://www.rockstargames.com/reddeadredemption2/",
     "tags": [
-      "devops",
-      "iac",
-      "nuvem",
-      "ferramenta"
+      "Ação-Aventura",
+      "Mundo Aberto",
+      "Velho Oeste",
+      "Narrativa"
     ]
   },
   {
-    "nome": "AWS Lambda",
-    "descricao": "Serviço de computação serverless da Amazon Web Services que executa código em resposta a eventos sem provisionamento de servidores.",
-    "data_criacao": "2014",
-    "link": "https://aws.amazon.com/lambda/",
+    "nome": "Marvel's Spider-Man 2",
+    "descricao": "Peter Parker e Miles Morales retornam para uma nova e emocionante aventura. Balance, pule e use as novas Asas de Teia para viajar pela Nova York da Marvel, alternando rapidamente entre os dois heróis.",
+    "data_criacao": "Indicado GOTY 2023",
+    "desenvolvedora": "Insomniac Games",
+    "imagem": "https://pbs.twimg.com/media/GGR94tfXIAEqSk7.jpg",
+    "indicacoes": 7,
+    "link": "https://www.playstation.com/pt-br/games/marvels-spider-man-2/",
     "tags": [
-      "serverless",
-      "nuvem",
-      "aws",
-      "funções"
+      "Ação-Aventura",
+      "Mundo Aberto",
+      "Super-herói",
+      "PS5"
     ]
   },
   {
-    "nome": "Next.js",
-    "descricao": "Framework React para produção que oferece renderização híbrida, tipagem TypeScript e otimizações de performance.",
-    "data_criacao": "2016",
-    "link": "https://nextjs.org/",
+    "nome": "Resident Evil 4",
+    "descricao": "Seis anos após o desastre biológico em Raccoon City, o agente Leon S. Kennedy é enviado para uma vila europeia isolada para resgatar a filha do presidente. Uma reimaginação do clássico de survival horror de 2005.",
+    "data_criacao": "Indicado GOTY 2023",
+    "desenvolvedora": "Capcom",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/header.jpg",
+    "indicacoes": 4,
+    "link": "https://www.residentevil.com/re4/",
     "tags": [
-      "framework",
-      "react",
-      "ssr",
-      "frontend",
-      "backend"
+      "Survival Horror",
+      "Ação",
+      "Remake",
+      "Terror"
     ]
   },
   {
-    "nome": "Svelte",
-    "descricao": "Framework frontend que compila código declarativo em JavaScript imperativo altamente eficiente no build time.",
-    "data_criacao": "2016",
-    "link": "https://svelte.dev/",
+    "nome": "Stray",
+    "descricao": "Perdido, sozinho e separado de sua família, um gato de rua deve desvendar um mistério antigo para escapar de uma cidade cibernética há muito esquecida e encontrar o caminho de casa.",
+    "data_criacao": "Indicado GOTY 2022",
+    "desenvolvedora": "BlueTwelve Studio",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1332010/header.jpg",
+    "indicacoes": 6,
+    "link": "https://stray.game/",
     "tags": [
-      "framework",
-      "frontend",
-      "compilador",
-      "web development"
+      "Aventura",
+      "Indie",
+      "Cyberpunk",
+      "Gato"
     ]
   },
   {
-    "nome": "GraphQL",
-    "descricao": "Linguagem de consulta e tempo de execução do lado do servidor para APIs, permitindo que os clientes solicitem exatamente os dados necessários.",
-    "data_criacao": "2015",
-    "link": "https://graphql.org/",
+    "nome": "The Legend of Zelda: Tears of the Kingdom",
+    "descricao": "Uma aventura épica pelas terras e céus de Hyrule. Use a imaginação para criar armas e veículos e desvendar os mistérios que assolam o reino após um cataclismo.",
+    "data_criacao": "Indicado GOTY 2023",
+    "desenvolvedora": "Nintendo EPD",
+    "imagem": "https://zeldacentral.com/wp-content/uploads/2025/03/Tears-of-the-Kingdom-wallpaper-1024x576.jpg",
+    "indicacoes": 5,
+    "link": "https://www.zelda.com/tears-of-the-kingdom/",
     "tags": [
-      "api",
-      "protocolo",
-      "linguagem de consulta",
-      "backend"
+      "Ação-Aventura",
+      "Mundo Aberto",
+      "RPG",
+      "Nintendo Switch"
     ]
   },
   {
-    "nome": "gRPC",
-    "descricao": "Estrutura de chamada de procedimento remoto (RPC) de código aberto e alta performance, desenvolvida pelo Google.",
-    "data_criacao": "2015",
-    "link": "https://grpc.io/",
+    "nome": "Hi-Fi Rush",
+    "descricao": "Sinta a batida como o aspirante a rockstar Chai e sua equipe de aliados desajustados em um mundo que sincroniza com a música. Lute contra uma megacorporação maligna em um combate rítmico.",
+    "data_criacao": "Melhor Direção de Arte 2023",
+    "desenvolvedora": "Tango Gameworks",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1817230/header.jpg",
+    "indicacoes": 4,
+    "link": "https://bethesda.net/pt/game/hifirush",
     "tags": [
-      "protocolo",
-      "backend",
-      "microserviços",
-      "performance"
+      "Ação",
+      "Ritmo",
+      "Hack and Slash",
+      "Cel-shading"
     ]
   },
   {
-    "nome": "Apache Kafka",
-    "descricao": "Plataforma distribuída de streaming de eventos, usada para construir pipelines de dados em tempo real e aplicações de streaming.",
-    "data_criacao": "2011",
-    "link": "https://kafka.apache.org/",
+    "nome": "Final Fantasy VII Rebirth",
+    "descricao": "A jornada desconhecida continua. Após escaparem de Midgar, Cloud e seus amigos embarcam em uma jornada pelo planeta, em busca de Sephiroth. Uma reimaginação do clássico RPG.",
+    "data_criacao": "Indicado GOTY 2024 (previsão)",
+    "desenvolvedora": "Square Enix",
+    "imagem": "https://jogandocasualmente.com.br/wp-content/uploads/2024/03/review-final-fantasy-vii-rebirth-ps5-1-1200x675.jpg",
+    "indicacoes": 7,
+    "link": "https://ffvii.square-enix-games.com/en-us/games/rebirth/",
     "tags": [
-      "streaming",
-      "mensageria",
-      "big data",
-      "apache"
+      "RPG",
+      "Ação",
+      "JRPG",
+      "PS5"
     ]
   },
   {
-    "nome": "Ansible",
-    "descricao": "Ferramenta de automação de código aberto para gerenciamento de configuração, implantação de aplicativos e orquestração.",
-    "data_criacao": "2012",
-    "link": "https://www.ansible.com/",
+    "nome": "Death Stranding",
+    "descricao": "Em um futuro próximo, misteriosas explosões abalaram o planeta, desencadeando uma série de eventos sobrenaturais. Como Sam Bridges, sua missão é entregar esperança à humanidade, conectando os últimos sobreviventes de uma América dizimada.",
+    "data_criacao": "Indicado GOTY 2019",
+    "desenvolvedora": "Kojima Productions",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1850570/header.jpg",
+    "indicacoes": 9,
+    "link": "https://www.kojimaproductions.jp/en/death-stranding-ps4",
     "tags": [
-      "devops",
-      "automação",
-      "gerenciamento de configuração",
-      "ferramenta"
+      "Ação",
+      "Mundo Aberto",
+      "Narrativa",
+      "Ficção Científica"
     ]
   },
   {
-    "nome": "Flutter",
-    "descricao": "Kit de ferramentas de UI do Google para construir aplicativos nativos compilados para mobile, web e desktop a partir de uma única base de código.",
-    "data_criacao": "2017",
-    "link": "https://flutter.dev/",
+    "nome": "Hollow Knight",
+    "descricao": "Explore um vasto reino em ruínas de insetos e heróis. Desafie chefes e desvende mistérios antigos no clássico de ação e aventura desenhado à mão.",
+    "data_criacao": "Melhor Jogo Indie de Estreia 2017",
+    "desenvolvedora": "Team Cherry",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg",
+    "indicacoes": 3,
+    "link": "https://hollowknight.com/",
     "tags": [
-      "framework",
-      "mobile",
-      "cross-platform",
-      "ui",
-      "dart"
+      "Metroidvania",
+      "Indie",
+      "Ação-Aventura",
+      "Plataforma"
     ]
   },
   {
-    "nome": "WebAssembly (Wasm)",
-    "descricao": "Formato de instrução binária para uma máquina virtual baseada em pilha, projetada para ser um alvo de compilação portátil para linguagens de alto nível.",
-    "data_criacao": "2017",
-    "link": "https://webassembly.org/",
+    "nome": "Persona 5 Royal",
+    "descricao": "Vista a máscara dos Ladrões-Fantasma de Corações e realize grandes assaltos, infiltre-se nas mentes dos corruptos e faça-os mudar de atitude! Inclui novo conteúdo e melhorias.",
+    "data_criacao": "Indicado Melhor RPG 2020",
+    "desenvolvedora": "Atlus",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQVnASr_vkTKGVQtmm9slMSvds55T2ONPR6w&s",
+    "indicacoes": 4,
+    "link": "https://www.atlus.com/p5r/",
     "tags": [
-      "web",
-      "performance",
-      "compilação",
-      "binário"
+      "JRPG",
+      "RPG",
+      "Vida Escolar",
+      "Estilizado"
     ]
   },
   {
-    "nome": "Prometheus",
-    "descricao": "Sistema de monitoramento e alerta open-source, usado para coletar métricas de sistemas e serviços em tempo real.",
-    "data_criacao": "2012",
-    "link": "https://prometheus.io/",
+    "nome": "Disco Elysium - The Final Cut",
+    "descricao": "Um RPG de mundo aberto inovador. Você é um detetive com um sistema de habilidades único à sua disposição e um quarteirão inteiro para explorar. Interrogue personagens, solucione assassinatos ou aceite subornos.",
+    "data_criacao": "Melhor Narrativa 2019",
+    "desenvolvedora": "ZA/UM",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/632470/header.jpg",
+    "indicacoes": 4,
+    "link": "https://discoelysium.com/",
     "tags": [
-      "monitoramento",
-      "devops",
-      "alerta",
-      "observabilidade",
-      "ferramenta"
+      "RPG",
+      "Narrativa",
+      "CRPG",
+      "Investigação"
+    ]
+  },
+  {
+    "nome": "Celeste",
+    "descricao": "Ajude Madeline a sobreviver aos seus demônios internos em sua jornada até o topo da Montanha Celeste, neste jogo de plataforma super afiado, dos criadores de TowerFall.",
+    "data_criacao": "Melhor Jogo Independente 2018",
+    "desenvolvedora": "Maddy Makes Games",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg",
+    "indicacoes": 4,
+    "link": "https://www.celestegame.com/",
+    "tags": [
+      "Plataforma",
+      "Indie",
+      "Pixel Art",
+      "Difícil"
+    ]
+  },
+  {
+    "nome": "Outer Wilds",
+    "descricao": "Você é o mais novo recruta do Outer Wilds Ventures, um programa espacial que busca respostas em um sistema solar estranho e em constante evolução. Preso em um loop temporal, cada ciclo revela novos segredos.",
+    "data_criacao": "Melhor Jogo Independente 2019",
+    "desenvolvedora": "Mobius Digital",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/753640/header.jpg",
+    "indicacoes": 3,
+    "link": "https://www.mobiusdigitalgames.com/outer-wilds.html",
+    "tags": [
+      "Exploração",
+      "Aventura",
+      "Mistério",
+      "Loop Temporal"
     ]
   }
 ]

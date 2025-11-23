@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #ca4949; /* Cor primária (azul claro) */
-    --secondary-color: #f5f9ff; /* Cor secundária (cinza claro) */
-    --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-    --bg-color: #4b4b4b; /* Cor de fundo (cinza escuro) */
+    --primary-color: #eb8541; /* Cor primária (azul claro) */
+    --secondary-color: #eb9442; /* Cor secundária (cinza claro) */
+    --tertiary-color: #e2e2e2; /* Cor terciária (cinza médio) */
+    --bg-color: #131313; /* Cor de fundo (cinza escuro) */
 }
 
 body {
@@ -22,7 +22,7 @@ header {
     padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
     display: flex; /* Habilita o layout flexbox */
     align-items: center; /* Alinha os itens verticalmente ao centro */
-    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    justify-content: space-between; /* Coloca um item na esquerda e outro na direita */
     position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
     top: 0; /* Posição do topo quando sticky */
     background: var(--bg-color); /* Cor de fundo do cabeçalho */
@@ -32,8 +32,9 @@ header {
 }
 
 header h1 {
-    font-size: 1.5rem; /* Tamanho da fonte */
-    margin: 0; /* Remove a margem padrão */
+    /* O posicionamento agora é controlado pelo flexbox do header */
+    margin: 0; /* Remove margens que possam interferir */
+    font-size: 1.8rem; /* Tamanho da fonte */
     font-weight: 500; /* Peso da fonte (médio) */
     white-space: nowrap; /* Impede a quebra de linha do texto */
 }
@@ -44,9 +45,9 @@ div input {
     border: 1px solid var(--tertiary-color); /* Define a borda */
     background: var(--bg-color); /* Cor de fundo */
     font-family: inherit; /* Herda a família da fonte do elemento pai */
-    font-size: 1.5rem; /* Tamanho da fonte */
+    font-size: 1.1rem; /* Tamanho da fonte */
     transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
-    width: 30rem; /* Largura do input */
+    width: 25rem; /* Largura do input */
     color: var(--secondary-color); /* Cor do texto digitado */
     margin-right: .5rem; /* Margem à direita */
 }
@@ -89,41 +90,59 @@ div input:focus {
 }
 
 main {
-    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura */
-    max-width: 80rem; /* Largura máxima do conteúdo principal */
+    max-width: 90rem; /* Largura máxima do conteúdo principal, aumentada para melhor escala */
     margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
-    margin-top: 2rem; /* Margem no topo */
-    height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela */
+    padding: 2rem 1rem; /* Adiciona padding para espaçamento */
+}
+
+/* Estilo para o contador de jogos */
+.game-count {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--tertiary-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Novo: Estilos para o container dos cards em formato de grade */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Cria uma grade responsiva */
+    gap: 1.5rem; /* Espaçamento entre os cards */
 }
 
 article {
-    display: flex; /* Habilita o flexbox para alinhar imagem e texto */
-    gap: 1.5rem; /* Espaço entre a imagem e o conteúdo de texto */
-    align-items: flex-start; /* Alinha os itens no topo */
-    background: none;
-    border-radius: 0; /* Sem bordas arredondadas */
-    padding: 0; /* Remove o padding */
-    padding: 0 1rem; /* Espaçamento interno nos lados */
-    margin-bottom: 1.25rem; /* Margem inferior */
-    box-shadow: none; /* Sem sombra */
-    transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
-    border-bottom: 1px solid var(--bg-color); /* Borda inferior */
-    padding-bottom: 1.5rem; /* Espaçamento interno inferior */
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo do card em coluna (imagem em cima, texto embaixo) */
+    background-color: #1c1c1c; /* Um fundo levemente mais claro para o card */
+    border-radius: 8px; /* Bordas arredondadas para o card */
+    border: 1px solid #414141; /* Adiciona a borda solicitada */
+    transition: border-color 0.3s ease; /* Transição suave para a borda */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse as bordas arredondadas */
 }
 
 article img {
-    width: 120px; /* Largura fixa para a imagem */
-    height: auto; /* Altura automática para manter a proporção */
-    border-radius: 8px; /* Bordas arredondadas para a imagem */
+    width: 100%; /* Imagem ocupa toda a largura do card */
+    height: 200px; /* Altura fixa para um visual uniforme na grade */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para o efeito de zoom */
 }
 
 .card-content {
-    flex: 1; /* Permite que o conteúdo de texto ocupe o espaço restante */
+    padding: 1.5rem; /* Adiciona espaçamento interno ao conteúdo de texto */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Faz o conteúdo ocupar o espaço restante */
 }
 
 article:hover {
-    transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
     cursor: pointer; /* Muda o cursor para uma mão */
+    border-color: var(--primary-color); /* Muda a cor da borda ao passar o mouse */
+}
+
+/* Adiciona o efeito de zoom na imagem quando o mouse está sobre o card */
+article:hover img {
+    transform: scale(1.05); /* Aumenta a escala da imagem em 5% */
 }
 
 article h2 {
@@ -159,16 +178,35 @@ article a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
+/* Estilos para as Tags */
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: auto; /* Empurra as tags para baixo, antes do link "Saiba mais" */
+    padding-top: 1rem; /* Espaço acima das tags */
+}
+
+.tag {
+    background-color: #333;
+    color: var(--tertiary-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
 .footer {
-    position: absolute; /* Posicionamento absoluto em relação ao elemento pai posicionado */
-    bottom: 0; /* Alinha na parte inferior */
-    left: 0; /* Alinha à esquerda */
     width: 100%; /* Largura total */
     color: var(--tertiary-color); /* Cor do texto */
     background-color: var(--bg-color); /* Cor de fundo */
     padding: 15px 20px; /* Espaçamento interno */
+    margin-top: 2rem; /* Adiciona espaço acima do rodapé */
     border-top: 1px solid #3c4043; /* Borda superior */
     font-size: 0.8rem; /* Tamanho da fonte */
+    display: flex;
+    justify-content: center;
 }
 
 .footer-location {
@@ -194,6 +232,29 @@ article a:hover {
     color: var(--primary-color); /* Muda a cor do link ao passar o mouse */
 }
 
+/* Estilos para a Paginação */
+#pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 8px;
+}
+
+.pagination-button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagination-button:hover, .pagination-button.active {
+    background-color: var(--primary-color);
+}
+
 @media (max-width: 768px) {
     header { /* Estilos para telas com largura máxima de 768px */
         flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
@@ -201,7 +262,8 @@ article a:hover {
     }
 
     header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
-        text-align: center; /* Centraliza o texto */
+        position: static; /* Remove o posicionamento absoluto */
+        transform: none; /* Reseta a transformação */
         margin-bottom: 1rem; /* Adiciona margem inferior */
     }
 
@@ -216,6 +278,17 @@ article a:hover {
 
     article:hover { /* Estilos para o article em telas menores */
         transform: none; /* Remove o efeito de escala ao passar o mouse */
+    }
+}
+
+@media (max-width: 600px) {
+    article {
+        flex-direction: column; /* Coloca a imagem em cima do texto */
+        align-items: center; /* Centraliza os itens */
+    }
+    article img {
+        width: 100%; /* Imagem ocupa toda a largura do card */
+        height: 200px; /* Altura ajustada para o layout vertical */
     }
 }
 
